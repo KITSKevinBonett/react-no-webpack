@@ -5,7 +5,7 @@ import styles from './WidgetCSS.css';
 export default class WidgetCSS extends Component {
     render() {
         return (
-            <p>Widget + CSS</p>
+            <p styleName="widget">Widget + CSS</p>
         );
     }
 }
