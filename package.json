@@ -1,8 +1,9 @@
 {
   "name": "react-no-webpack",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "lib": "babel ./src/lib --out-dir ./lib --copy-files",
     "build": "browserify ./src/index.js -o ./build/bundle.js -t babelify -p [ css-modulesify --before postcss-nested --before postcss-simple-vars -o build/main.css ]"
   },
   "keywords": [],

@@ -1,0 +1,12 @@
+$color-text: rebeccapurple;
+
+.widget {
+    border: 1px solid rebeccapurple;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding: 1rem;
+
+    p {
+        color: $color-text;
+    }
+}
